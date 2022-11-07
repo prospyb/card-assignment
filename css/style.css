@@ -1,0 +1,80 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 300px;
+    height: 1000px;
+    background-color: rgb(208,240,253);
+    border-radius: 15px;
+    margin: auto;
+}
+
+.intro {
+    height: 50px;
+    background-color: rgb(45,127,249);
+    border-radius: 15px 15px 0px 0px;
+}
+
+.intro p {
+    padding: 15px 0px 0px 20px;
+    color: #fff;
+}
+
+.wrapper {
+    padding: 0px 15px 0px 15px;
+}
+
+.info {
+    padding: 15px 0px 80px 0px;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+}
+
+.dolls {
+    padding-right: 15px;
+    font-size: 70px;
+}
+
+.bill {
+    padding-top: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 50px;
+    width: 300px;
+    background-color: rgb(45,127,249);
+    border: 0px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor:pointer;
+    background-color: rgb(39,79,174);
+}
+
+i {
+    padding-right: 10px;
+}
+
+.text {
+    display: flex;
+    align-self: flex-end;
+}
+
+.dotted {
+    text-decoration:underline;
+    text-decoration-style: dotted;
+}
+
